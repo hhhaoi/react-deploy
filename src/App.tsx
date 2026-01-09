@@ -4,7 +4,7 @@ import About from './pages/About'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-deploy/">
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
